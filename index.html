@@ -1,162 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Ресторан "Шпайз"</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <!DOCTYPE html>
-  <html lang="uk">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Меню ресторану</title>
-    <link rel="stylesheet" href="style.css" />
+  <h1>Ресторан "Шпайз"</h1>
 
-  </head>
+  <section class="section">
+    <h2>Фотогалерея страв</h2>
 
-  <body>
-
-    <header>
-      <h1>Ресторан "Шпайз"</h1>
-      <p>Меню</p>
-    </header>
-
-    <div class="container">
-
-      <!-- САЛАТИ -->
-      <section class="category">
-        <h2 class="category-title">Салати</h2>
-
-        <div class="menu-grid">
-
-          <div class="card">
-            <div class="image-placeholder">
-              Фото салату
-            </div>
-
-            <div class="card-content">
-              <h3>Шпайз</h3>
-              <p class="description">
-                гриби, шинка, курка, огірки, яйце, цибуля, майонез
-              </p>
-              <div class="price">360 грн</div>
-              <div class="weight">300 г</div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="image-placeholder">
-              Фото салату
-            </div>
-
-            <div class="card-content">
-              <h3>Цезар</h3>
-              <p class="description">
-                салат, помідори, грінки, курка, пармезан
-              </p>
-              <div class="price">400 грн</div>
-              <div class="weight">400 г</div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="image-placeholder">
-              Фото салату
-            </div>
-
-            <div class="card-content">
-              <h3>Грецький</h3>
-              <p class="description">
-                помідори, перець, маслини, бринза
-              </p>
-              <div class="price">300 грн</div>
-              <div class="weight">300 г</div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <!-- ПЕРШІ СТРАВИ -->
-      <section class="category">
-        <h2 class="category-title">Перші страви</h2>
-
-        <div class="menu-grid">
-
-          <div class="card">
-            <div class="image-placeholder">
-              Фото борщу
-            </div>
-
-            <div class="card-content">
-              <h3>Борщ український</h3>
-              <div class="price">300 грн</div>
-              <div class="weight">450 г</div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="image-placeholder">
-              Фото солянки
-            </div>
-
-            <div class="card-content">
-              <h3>Солянка</h3>
-              <div class="price">350 грн</div>
-              <div class="weight">400 г</div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <!-- МАНГАЛ -->
-      <section class="category">
-        <h2 class="category-title">Страви на мангалі</h2>
-
-        <div class="menu-grid">
-
-          <div class="card">
-            <div class="image-placeholder">
-              Фото шашлика
-            </div>
-
-            <div class="card-content">
-              <h3>Шашлик свинний</h3>
-              <div class="price">140 грн</div>
-              <div class="weight">100 г</div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="image-placeholder">
-              Фото шашлика
-            </div>
-
-            <div class="card-content">
-              <h3>Шашлик курячий</h3>
-              <div class="price">130 грн</div>
-              <div class="weight">100 г</div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
+    <div class="photos">
+      <div class="photo">Фото 1</div>
+      <div class="photo">Фото 2</div>
+      <div class="photo">Фото 3</div>
+      <div class="photo">Фото 4</div>
+      <div class="photo">Фото 5</div>
+      <div class="photo">Фото 6</div>
     </div>
+  </section>
 
-    <footer>
-      © 2025 Ресторан "Шпайз"
-    </footer>
+  <section class="section">
+    <h2>Салати</h2>
 
-  </body>
+    <table>
+      <tr>
+        <td>Шпайз</td>
+        <td class="price">360 грн</td>
+      </tr>
 
-  </html>
+      <tr>
+        <td>Цезар</td>
+        <td class="price">400 грн</td>
+      </tr>
+
+      <tr>
+        <td>Грецький</td>
+        <td class="price">300 грн</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="section">
+    <h2>Перші страви</h2>
+
+    <table>
+      <tr>
+        <td>Борщ український</td>
+        <td class="price">300 грн</td>
+      </tr>
+
+      <tr>
+        <td>Солянка</td>
+        <td class="price">350 грн</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="section">
+    <h2>Страви на мангалі</h2>
+
+    <table>
+      <tr>
+        <td>Шашлик свинний</td>
+        <td class="price">140 грн</td>
+      </tr>
+
+      <tr>
+        <td>Шашлик курячий</td>
+        <td class="price">130 грн</td>
+      </tr>
+    </table>
+  </section>
+
 </body>
 
 </html>

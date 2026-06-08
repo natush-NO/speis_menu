@@ -6,97 +6,61 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: #f5f5f5;
+  background: #f3f1ee;
   color: #333;
-}
-
-header {
-  background: #8b4513;
-  color: white;
-  text-align: center;
   padding: 30px;
 }
 
-header h1 {
-  font-size: 40px;
-  margin-bottom: 10px;
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 52px;
 }
 
-.container {
-  width: 90%;
+.section {
   max-width: 1200px;
   margin: 30px auto;
-}
-
-.category {
-  margin-bottom: 50px;
-}
-
-.category-title {
-  text-align: center;
-  margin-bottom: 25px;
-  font-size: 32px;
-  color: #8b4513;
-}
-
-.menu-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 25px;
-}
-
-.card {
+  padding: 40px;
   background: white;
-  border-radius: 16px;
-  overflow: hidden;
+  border-radius: 20px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
-  transition: 0.3s;
 }
 
-.card:hover {
-  transform: translateY(-5px);
+.section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 42px;
 }
 
-.image-placeholder {
+.photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.photo {
   height: 220px;
-  background: #e5e5e5;
+  border: 2px dashed #bfbfbf;
+  border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #666;
-  font-size: 18px;
+  font-size: 20px;
 }
 
-.card-content {
-  padding: 20px;
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.card-content h3 {
-  margin-bottom: 10px;
-  color: #8b4513;
-}
-
-.description {
-  color: #666;
-  margin-bottom: 15px;
-  line-height: 1.5;
+td {
+  padding: 18px 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 22px;
 }
 
 .price {
-  color: #8b4513;
-  font-size: 24px;
+  text-align: right;
   font-weight: bold;
-}
-
-.weight {
-  color: #999;
-  margin-top: 5px;
-}
-
-footer {
-  text-align: center;
-  padding: 30px;
-  background: #222;
-  color: white;
-  margin-top: 50px;
 }
